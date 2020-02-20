@@ -66,7 +66,7 @@ tar -czf zenodo-archive/docs.tgz docs/
 
 echo "======================================================================"
 date --iso-8601="seconds"
-echo "Archiving PUDL datapackages for distribution."
+echo "Archiving FERC 1 SQLite DB."
 echo "======================================================================"
 tar -czf zenodo-archive/ferc1-sqlite.tgz sqlite/ferc1.sqlite
 
