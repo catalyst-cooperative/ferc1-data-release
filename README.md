@@ -79,16 +79,16 @@ what a respondent would have entered on paper. That output and the data which
 underlies it is generally human readable in context, but often difficult or
 impossible to use programmatically.
 
-* The data is organized by page and row number. On some pages, a given row number
-  consistently refers to a particular piece of semantic information. On other
-  pages the meaning of the content of the row is undefined, and only indicated
-  by information provided by the respondent. Sometimes that information is
-  contained on the row itself, but it's also common for respondents to create
-  headers and subheaders on their own rows, meaning that information required
-  to interpret the meaning of a given row is only available within another row
-  -- i.e. another record in the database. Rows containing totals and subtotals
-  that sum quantities reported on several other unspecified rows are also
-  common, and very difficult to parse.
+* The data is organized by page and row number. On some pages, a given row
+  number consistently refers to a particular piece of semantic information. On
+  other pages the meaning of the content of the row is undefined, and only
+  indicated by information provided by the respondent. Sometimes that
+  information is contained on the row itself, but it's also common for
+  respondents to create headers and subheaders on their own rows, meaning that
+  information required to interpret the meaning of a given row is only
+  available within another row -- i.e. another record in the database. Rows
+  containing totals and subtotals that sum quantities reported on several other
+  unspecified rows are also common, and very difficult to parse.
 * In addition, even when individual rows do contain well defined pieces of
   information, the mapping between the row number and what kind of information
   it contains changes from year to year, as rows are added or re-arranged. This
@@ -198,6 +198,15 @@ impossible to use programmatically.
   without the open source [dbfread Python
   package](https://github.com/olemb/dbfread/) originally developed by Ole
   Martin Bjørndalen.
+
+## Licensing
+* The software contained in this archive is distributed under the
+  [MIT License](https://opensource.org/licenses/MIT).
+* The processed data outputs contained in this archive are distributed under
+  the [Creative Commons Attribution License
+  v4.0](https://creativecommons.org/licenses/by/4.0/) (CC-BY-4.0)
+* The original input data is a product of the US Federal Government and is thus
+  in the public domain.
 
 ## Changelog
 
